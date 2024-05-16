@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's Go to Hawaii</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body class="bg-info">
+  
+<!--Title for this web page -->    
+<marquee><h1 class="text-white">Hawaii Info</h1></marquee>
+
+<div id="main-container" class="container pt-2 pb-5 bg-light">
+
+    <!-- connection between different web pages -->
+    <div class="mb-5"> 
+        <ul class="nav nav-pills justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="about.html">About</a>
+            </li>  
+            <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="Contact.html">Contact</a>
+              </li>
+        </ul>
+    </div>
+    
+<!-- List of Hawaii island for tour in 2024 -->
+    <div id="2024-List" class="container text-center mb-5 fs-4">
+
+        <div class="bg-secondary text-white text-center mb-4"><h3>Which Hawaiian Island is the Best to Visit?</h3></div>
+        
+        <div class="row">
+        <div class="col-lg-2 text-primary">#1 Maui</div>
+        <div class="col-lg-2 text-secondary">#2 Kaua'i</div>
+        <div class="col-lg-2 text-success">#3 Hawaii - The Big Island</div>
+        <div class="col-lg-2 text-danger">#4 Molokai</div>
+        <div class="col-lg-2 text-warning">#5 Oahu</div>
+        <div class="col-lg-2 text-info">#6 Lanai</div>
+        </div>
+
+    </div>
+
+<!-- Card for each Island-->
+    <div class="container text-center mb-5 fs-2">
+        <div class="row">
+            <div class="col-lg">
+                <div id="card-1" class="card bg-secondary">
+            
+                    <img src="images/Maui.jpg" class="card-img-top" alt="Picture of Maui">
+                    <div class="card-body">
+                    <h5 class="card-title">Maui</h5>
+                    <p class="card-text">Maui encompasses a striking spectrum of landscapes and experiences; known for its beaches, tropical landscapes, and unique biology.</p>
+                    <a href="#" class="btn btn-primary">More Info</a>
+                    </div> 
+                </div>  
+            </div>
+
+            <div class="col-lg">
+                <div id="card-2" class="card bg-secondary">
+                    <img src="images/Kauai.jpg" class="card-img-top" alt="Picture of Kauai">
+                    <div class="card-body">
+                        <h5 class="card-title">Kauai</h5>
+                        <p class="card-text">Kauai is the oldest of the main Hawaiian Islands; known for its rainforests, swamps, valleys, waterfalls, and white sand beaches.</p>
+                        <a href="#" class="btn btn-primary">More Info</a>
+                    </div>  
+                </div>     
+            </div>
+
+            <div class="col-lg">
+                <div id="card-3" class="card bg-secondary">
+                    <img src="images/BigIsland.jpg" class="card-img-top" alt="Picture of The Big Island">
+                    <div class="card-body">
+                        <h5 class="card-title">Big Island</h5>
+                        <p class="card-text">The Big Island is the youngest and largest of the Hawaiian Islands; especially has activities like hiking, scuba diving and snorkeling to enjoy.</p>
+                        <a href="#" class="btn btn-primary">More Info</a>
+                    </div>  
+                </div>
+            </div>
+
+
+            <div class="col-lg">
+                <div id="card-4" class="card bg-secondary">
+                    <img src="images/Molokai.jpg" class="card-img-top" alt="Picture of Molokai">
+                    <div class="card-body">
+                        <h5 class="card-title">Molokai</h5>
+                        <p class="card-text">Molokai is home to the highest sea cliffs in the world; has preserved its slow paced, laid-back lifestyle and connection to the past.</p>
+                        <a href="#" class="btn btn-primary">More Info</a>
+                    </div> 
+                </div>
+            </div>
+
+
+            <div class="col-lg">
+                <div id="card-5" class="card bg-secondary">
+                    <img src="images/Oahu.jpg" class="card-img-top" alt="Picture of Oahu">
+                    <div class="card-body">
+                    <h5 class="card-title">Oahu</h5>
+                    <p class="card-text">Oahu is home to about two-thirds of the state's population; known as "The Gathering Place" and is a popular destination for tourists.</p>
+                    <a href="#" class="btn btn-primary">More Info</a>
+                    </div> 
+                </div>
+            </div>
+
+
+            <div class="col-lg">
+                <div id="card-6" class="card bg-secondary">
+                    <img src="images/Lanai.jpg" class="card-img-top" alt="Picture of Lanai">
+                    <div class="card-body">
+                        <h5 class="card-title">Lanai</h5>
+                        <p class="card-text">Lanai is the smallest inhabited island that's publicly accessible; known for its aloha spirit, tightly knit community, and unique offerings.</p>
+                        <a href="#" class="btn btn-primary">More Info</a>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- table of Hawaii islands comparison --> 
+    <div>
+        <h2 class="text-center">Islands Comparison</h2>
+
+    </div>
+
+    <table class="table table-striped table-hover">
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Island</th>
+            <th scope="col">Population</th>
+            <th scope="col">Size</th>
+        </tr>
+        <tr>
+            <th scope="row">1</th>
+            <td class="text-primary">Maui</td>
+            <td>164,351</td>
+            <td>727 mi2</td>
+        </tr>
+        <tr>
+            <th scope="row">2</th>
+            <td class="text-secondary">Kaua'i</td>
+            <td>71,838</td>
+            <td>552 mi2</td>
+        </tr>
+        <tr>
+            <th scope="row">3</th>
+            <td class="text-success">Hawaii - The Big Island</td>
+            <td>200,629</td>
+            <td>4,028 mi2</td>
+        </tr>
+        <tr>
+            <th scope="row">4</th>
+            <td class="text-danger">Molokai</td>
+            <td>7,404</td>
+            <td>260 mi2</td>
+        </tr>
+        <tr>
+            <th scope="row">5</th>
+            <td class="text-warning">Oahu</td>
+            <td>1,016,508</td>
+            <td>597 mi2</td>
+        </tr>
+        <tr>
+            <th scope="row">6</th>
+            <td class="text-info">Lanai</td>
+            <td>3,102</td>
+            <td>140.5 mi2</td>
+        </tr>
+    </table>
+</div>
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
